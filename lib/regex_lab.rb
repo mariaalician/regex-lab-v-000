@@ -3,7 +3,7 @@ word.scan(/\b[aeiou][a-z]*\b/)
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
-
+textstring.scan(/\b[Uu]n[a-z]*ing\b/)
 end
 
 def words_five_letters_long(text)
